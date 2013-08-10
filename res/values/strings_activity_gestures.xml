@@ -1,0 +1,11 @@
+<resources>
+    
+    <!-- Starting & Stopping App Service -->
+    <string name="start_service_gestures">Start <b>Automaton</b> Gestures</string>
+    <string name="stop_service_gestures">Stop <b>Automaton</b> Gestures</string>
+    
+    <string name="swipe_once">Swipe Once</string>
+    <string name="navigate">Navigation</string>
+    <string name="set_function">Set</string>
+
+</resources>

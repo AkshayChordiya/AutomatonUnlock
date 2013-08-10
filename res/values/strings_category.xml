@@ -1,0 +1,46 @@
+<resources>
+    
+    <!-- Sensor Data -->
+    <string name="category_details">Details</string>
+    
+    <!-- Control Panel -->
+    <string name="category_control">Control</string>
+    <string name="category_startup">Startup</string>
+    <string name="category_sensor">Sensor</string>
+    <string name="category_comfort">Comfort</string>
+    <string name="category_effect">Effects</string>
+    <string name="category_timer">Time &amp; Battery</string>
+    <string name="category_battery">Battery</string>
+    <string name="category_security">Security</string>
+    <string name="category_vibration">Vibration</string>
+    
+    <!-- Advance Panel -->
+    <string name="category_gestures">Gestures</string>
+    <string name="category_ignore">Ignore Apps</string>
+    <string name="category_night">Night</string>
+    <string name="category_night_time">Night Time</string>
+    <string name="category_help_about">Help &amp; About</string>
+    
+    <!-- About Page -->
+    <string name="category_dev">Developer</string>
+    <string name="category_dialog">Upcoming</string>
+    <string name="category_contact">Contact Me</string>
+    <string name="category_bug">Report Bug</string>
+    <string name="category_reset">Reset All</string>
+    
+    <!-- Credits -->
+    <string name="category_coding">Help</string>
+    <string name="category_icon">Styling</string>
+    <string name="category_idea">Suggestions</string>
+    <string name="category_translate">Translators</string>
+    <string name="category_tester">Testers</string>
+    
+    <!-- Side Bar -->
+    <string name="category_shortcut">Shortcuts</string>
+    <string name="category_handy">Handy Settings</string>
+    <string name="category_remove">Remove</string>
+    
+    <!-- Say Time -->
+    <string name="category_time_format">Time Format</string>
+    
+</resources>

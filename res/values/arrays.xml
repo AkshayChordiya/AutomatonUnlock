@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sensor_effect_entries">
+        <item >Lock Only</item>
+        <item >UnLock Only</item>
+        <item >Lock / Unlock Screen</item>
+    </string-array>
+    <string-array name="sensor_effect_values">
+        <item >88</item>
+        <item >89</item>
+        <item >90</item>
+    </string-array>
+    <!-- 
+    <string-array name="flip_cover_entries">
+        <item >No, Goes to Pocket Mode</item>
+        <item >Proximity (Normal Flip Cover)</item>
+        <item >Magnetic (Calibrate)</item>
+        <item >Light Tablet Cover (Calibrate)</item>
+        <item >Fuse: Proximity + Light</item>
+        <item >Fuse: Shake + Proximity</item>
+        <item >Fuse: Magnetic + Proximity (Advance Flip Cover)</item>
+    </string-array>
+    <string-array name="flip_cover_values">
+        <item >no_go_flip</item>
+        <item >flip_proximity</item>
+        <item >flip_magnet</item>
+        <item >flip_light</item>
+        <item >flip_proximity_light</item>
+        <item >flip_shake_proximity</item>
+        <item >flip_magnet_proximity</item>
+    </string-array>
+    <string-array name="pocket_values">
+        <item >no_go_pocket</item>
+        <item >pocket_proximity</item>
+        <item >pocket_shake</item>
+        <item >pocket_shake_proximity</item>
+        <item >pocket_split_sp</item>
+        <item >pocket_split_spp</item>
+    </string-array>
+    <string-array name="pocket_entries">
+        <item >No, Goes to Flip Cover</item>
+        <item >Proximity</item>
+        <item >Shake (Not Reliable)</item>
+        <item >Fuse: Shake + Proximity (Best)</item>
+        <item >Split: Proximity &amp; Shake</item>
+        <item >Split: Shake + Proximity &amp; Proximity</item>
+    </string-array>
+    <string-array name="sensor_switch_entries">
+        <item >Proximity - Flip Cover</item>
+        <item >Magnetic - Flip Cover</item>
+        <item >Light - Tablet Mode (Beta)</item>
+        <item >Shake</item>
+        <item >Fuse: Proximity + Light</item>
+        <item >Fuse: Shake + Proximity</item>
+        <item >Split: Proximity &amp; Shake</item>
+    </string-array>
+    <string-array name="sensor_switch_values">
+        <item >proximity</item>
+        <item >magnet</item>
+        <item >light</item>
+        <item >shake</item>
+        <item >fusion</item>
+        <item >shake_proximity</item>
+        <item >split_sp</item>
+    </string-array>
+     -->
+    <string-array name="auto_off_entries">
+        <item >None</item> 
+        <item >After 2 hr</item>
+        <item >After 4 hr</item>
+        <item >After 6 hr</item>       
+        <!-- <item >Set Custom Time</item>      -->          
+    </string-array>
+    <string-array name="auto_off_values">
+        <item >off</item> 
+        <item >off_2hr</item>
+        <item >off_4hr</item>
+        <item >off_6hr</item>
+        <!-- <item >off_custom</item> -->
+    </string-array>
+    <string-array name="auto_battery_entries">
+        <item >None</item>
+        <item >Below 20%</item>
+        <item >Below 15%</item>
+        <item >Below 10%</item>
+    </string-array>
+    <string-array name="auto_battery_values">
+        <item >battery_off</item>
+        <item >battery_20</item>
+        <item >battery_15</item>
+        <item >battery_10</item>
+    </string-array>
+    <string-array name="unlock_timeout_entries">
+        <item >0 [Select if phone unlocks]</item>
+        <item >850 ms ~ 0.85 s</item>
+        <item >1500 ms ~ 1.4 s (Default)</item>
+        <item >1600 ms ~ 1.8 s</item>
+        <item >2000 ms ~ 2 s</item>
+        <item >2500 ms ~ 2.5 s</item>
+        <item >3000 ms ~ 3 s</item>
+        <item >5000 ms ~ 5 s</item>
+        <item >10 seconds</item>
+        <item >15 seconds</item>
+    </string-array>
+    <string-array name="unlock_timeout_values">
+        <item >null_time</item>
+        <item >instant_time</item>
+        <item >default_time</item>
+        <item >extra_time</item>
+        <item >large_gap_time</item>
+        <item >high_gap_time</item>
+        <item >huge_gap_time</item>
+        <item >hugest_gap_time</item>
+        <item >double_gap_time</item>
+        <item >fifteen_gap_time</item>
+    </string-array>
+    <string-array name="sensor_duration_entries">
+        <item >0ms</item>
+        <item >850 ms ~ 0.85s</item>
+        <item >1000ms ~ 1.0s</item>
+        <item >1500ms ~ 1.5s (Default)</item>
+        <item >2000ms ~ 2.0s</item>
+        <item >2500ms ~ 2.5s</item>
+        <item >3500ms ~ 3.5</item>
+        <item >5.0s</item>
+    </string-array>
+    <string-array name="sensor_duration_values">
+        <item >null_delay</item>
+        <item >instant_delay</item>
+        <item >small_delay</item>
+        <item >default_delay</item>
+        <item >long_delay</item>
+        <item >medium_delay</item>
+        <item >large_delay</item>
+        <item >serious_delay</item>
+    </string-array>
+    <string-array name="sensor_sensitivity_entries">
+        <item >Fastest</item>
+        <item >Game Speed</item>
+        <item >Normal (Default)</item>
+        <item >Low</item>
+    </string-array>
+    <string-array name="sensor_sensitivity_values">
+        <item >vh_sensi</item>
+        <item >h_sensi</item>
+        <item >m_sensi</item>
+        <item >l_sensi</item>
+    </string-array>
+    <string-array name="vibration_entries">
+        <item >50 ms</item>
+        <item >100 ms</item>
+        <item >150 ms</item>
+        <item >300 ms (Default)</item>
+        <item >500 ms</item>
+        <item >750 ms</item>
+        <item >1000 ms ~ 1s</item>
+    </string-array>
+    <string-array name="vibration_values">
+        <item >vibrate_50</item>
+        <item >vibrate_100</item>
+        <item >vibrate_150</item>
+        <item >vibrate_300</item>
+        <item >vibrate_500</item>
+        <item >vibrate_750</item>
+        <item >vibrate_1000</item>
+    </string-array>
+    <string-array name="sensor_effect2_entries">
+        <item >None</item>
+        <item >Lock Only</item>
+        <item >UnLock Only</item>
+        <item >Lock / Unlock Screen</item>
+    </string-array>
+    <string-array name="sensor_effect2_values">
+        <item >no_effect2</item>
+        <item >lock_on</item>
+        <item >unlock_on</item>
+        <item >lock_unlock_on</item>
+    </string-array>
+    <string-array name="search_delay_time">
+        <item >Long (30s)</item>
+        <item >Above Normal (15s)</item>
+        <item >Normal (10s) (Default)</item>
+        <item >Short (5s)</item>
+    </string-array>
+    <string-array name="search_delay_values">
+        <item >30</item>
+        <item >15</item>
+        <item >10</item>
+        <item >5</item>
+    </string-array>
+    <string-array name="shake_type_entries">
+        <item >Accelerometer (Default)</item>
+        <item >Linear Accelerometer (Accurate)</item>
+    </string-array>
+    <string-array name="shake_type_values">
+        <item >coaxial_shake</item>
+        <item >linear_shake</item>
+    </string-array>
+    <string-array name="speak_style_entries">
+        <item >Formal (Hour:Mins)</item>
+        <item >Comman (Mins:Hour)</item>
+    </string-array>
+    <string-array name="speak_style_values">
+        <item >speak_formal</item>
+        <item >speak_comman</item>
+    </string-array>
+    <string-array name="wakelock_entries">
+        <item >Type 1 (Default)</item>
+        <item >Type 2</item>
+        <item >Type 3</item>
+    </string-array>
+    <string-array name="wakelock_values">
+        <item >wake_type_1</item>
+        <item >wake_type_2</item>
+        <item >wake_type_3</item>
+    </string-array>
+    <string-array name="navigate_entries">
+        <item >Show Home Screen</item>
+        <item >Recent Apps</item>
+        <item >Auto Unlock Lockscreen</item>
+        <item >Scroll Up</item>
+        <item >Scroll Down</item>
+        <item >Slide Left</item>
+        <item >Slide Right</item>
+    </string-array>
+</resources>

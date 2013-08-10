@@ -1,0 +1,18 @@
+<resources>
+    <string name="mode_both">Both Sensor Modes can\'t be activated simultaneously</string>
+    <string name="mode_none">No Sensor Mode selected</string>
+    <string name="current_time">It\'s</string>
+    <string name="past">past</string>
+    <string name="tts_error">Problem with Say Time\nCheck FAQ</string>
+    
+    <!-- Sensor List -->
+    <string name="fuse_proximity_light">Fuse: Proximity &amp; Light</string>
+    <string name="fuse_shake_proximity">Fuse: Proximity &amp; Shake</string>
+    <string name="fuse_proximity_magnetic">Fuse: Proximity &amp; Magnetometer</string>
+    
+    <string name="shake">Shake</string>
+    <string name="split_proximity_shake">Split: Proximity | Shake</string>
+    <string name="split_proximity_shake_prox_pocket">Fuse + Split: Proximity &amp; Shake | Proximity (Editor\'s Choice)</string>
+    <string name="hint_split">Remember to set 2nd split function too</string>
+    
+</resources>

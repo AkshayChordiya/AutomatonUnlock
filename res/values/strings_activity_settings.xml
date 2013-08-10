@@ -1,0 +1,231 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- About related strings -->
+    <string name="about_changelog_title">Changelog</string>
+    <string name="about_changelog_summary">What\'s New</string>
+    <string name="about_plan_title">Planned Features</string>
+    <string name="about_plan_summary">Functionality for future releases</string>
+    
+     <!-- Email Support -->
+    <string name="email_title">Email Support</string>
+    <string name="email_summary">akshaychordiya2@gmail.com</string>
+    
+    <!-- Sensor Test -->
+    <string name="sensor_light_test_title">Light Sensor</string>
+    <string name="sensor_light_test_summary">Used for Auto-Brightness</string>
+    
+    <string name="sensor_proximity_test_title">Proximity Sensor</string>
+    <string name="sensor_proximity_test_summary">Widely used in calls</string>
+    
+    <string name="sensor_accelerometer_test_title">Shake Sensor</string>
+    <string name="sensor_accelerometer_test_summary">Mostly used for gaming</string>
+    
+    <string name="sensor_magnet_test_title">Magnetometer Sensor</string>
+    <string name="sensor_magnet_test_summary">Used in compass</string>
+    
+    <!-- Start at startup -->
+    <string name="boot_service_title">Start App on Startup</string>
+    <string name="boot_service_summary">Activates the app features immediately after device boots</string>
+    
+    <!-- Sensor Turning Off duration -->
+    <string name="lock_duration_title">Screen Lock Delay</string>
+    <string name="lock_duration_summary">Delay in locking device preventing accidental screen OFF</string>
+    
+    <!-- Sensor Turning ON duration 
+    <string name="unlock_duration_title">Screen Re-Unlock Delay</string>
+    <string name="unlock_duration_summary">Delay in unlocking device after LOCKING preventing screen ON after screen OFF.\nNote: Use only if
+        your screen Unlocks again on Lock</string> -->
+    
+    <!-- Function of sensor -->
+    <string name="sensor_effect_title">Sensor Function</string>
+    <string name="sensor_effect_summary">Effect of sensor that should happen</string>
+    
+    <!-- Function of 2nd sensor -->
+    <string name="sensor_effect2_title">Split 2nd Sensor Function</string>
+    <string name="sensor_effect2_summary">Apply function to the 2nd sensor of Split related Pocket Mode</string>
+    
+    <!-- Flip Cover Mode -->
+    <string name="flip_cover_title">Flip Cover Mode</string>
+    <!--  <string name="flip_cover_summary">Select the Flip Cover Mode</string> -->
+    
+    <!-- Pocket Mode -->
+    <string name="pocket_title">Pocket Mode</string>
+    <!-- <string name="pocket_summary">Select the Pocket Mode</string> -->
+    
+    <!-- Combined Sensor Selection -->
+    <string name="set_sensor_title">Sensor Mode</string>
+    <string name="set_sensor_summary">Select the Sensor Mode suiting your requirement</string>
+    
+    <!-- Sensor Notification Toggle-->
+    <string name="sensor_notify_title">Show App Notification</string>
+    <string name="sensor_notify_summary">Display Notification in Notification tray when app is running.Prevents from getting killed</string>
+    
+    <!-- Call Sensor Toggle -->
+    <string name="call_sensor_title">No Call Interference</string>
+    <string name="call_sensor_summary">Doesn\'t interfere during calls by disabling &amp; enabling app again after call</string>
+    
+    <!-- Keep device awake  -->
+    <string name="keep_on_title">Keep screen ON</string>
+    <string name="keep_on_summary">Screen will be awake till the device is not locked\nNote- Drains battery if screen is kept continuosly ON\n</string>
+   
+    
+    <!-- Disable showing lock screen when device is unlocked 
+    <string name="disable_lock_title">Disable Lock Screen</string>
+    <string name="disable_lock_summary">Unlocks directly without lock screen\nNote: For some devices fixs Screen not turning off</string> -->
+    
+    <!-- Shake Related 
+    <string name="shake_duration_title">Set Shake Duration</string>
+    <string name="shake_duration_summary">Duration of shaking in Millisecond</string>
+    <string name="shake_count_title">Set Shake Count</string> 
+    <string name="shake_count_summary">How many times to shake device for effect</string>
+    -->
+     <!-- Shake Timeout 
+    <string name="shake_timeout_title">Set Shake Timeout</string>
+    <string name="shake_timeout_summary">Set time for timeout in Millisecond</string>
+    -->
+    
+    <!-- Reset Settings Data of App -->
+    <string name="reset_setting_title">Reset Data</string>
+    <string name="reset_setting_summary">Clears all the settings data if you feel that app is having funny behavoir</string>
+    
+    <!-- Night Mode -->
+    <string name="night_mode_title">Night Mode / Scheduler</string>
+    <string name="night_mode_summary">App will stop &amp; start at time selected from SET TIME.\nNote:Untick night mode to stop</string>
+    <string name="start_night_title">Select Start Time</string>
+    <string name="stop_night_title">Select Stop Time</string>
+    <string name="start_night_summary">When to start Night Mode / Schedule</string>
+    <string name="stop_night_summary">When to stop Night Mode / Schedule</string>
+    
+    <string name="auto_off_title">Auto Shut Down</string>
+    <string name="auto_off_summary">Select the duration after which the app should turn off automatically</string>
+    
+    <!-- Battery Level -->
+    <string name="auto_battery_title">Battery Saver</string>
+    <string name="auto_battery_summary">Turns off the app automatically &amp; doesn\'t allow to start when battery level is below desired level</string>
+    
+    <!-- FAQ dialog -->
+    <string name="faq_dialog_title">FAQ</string>
+    <string name="faq_dialog_summary">Find out common problems &amp; their answers</string>
+    
+    <!-- Orientation Related -->
+    <string name="disable_orientation_title">Landscape Disable</string>
+    <string name="disable_orientation_summary">Stops the app when the device is in landscape orientation very useful for Gamers</string>
+    
+    <!-- Like Application -->
+    <string name="like_app_title">Like Automaton</string>
+    <string name="like_app_summary">Show your love on Play Store by rating my app</string>
+    
+    
+    <!-- Application Selector -->
+    <string name="disable_app_title">Ignore App Selector</string>
+    <string name="disable_app_summary">Select the apps for which my app should be disabled</string>
+    
+    <!-- Unlock Screen Timeout -->
+    <string name="unlock_timeout_title">Unlock Screen Timeout</string>
+    <string name="unlock_timeout_summary">Select time to lock screen again after unlock. Note: Lower value consumes low battery</string>    
+    
+    <!-- Show Home Screen -->
+    <string name="show_home_title">Show Home Screen</string>
+    <string name="show_home_summary">Directly goes to home screen when screen unlocks</string>
+    
+    <!-- Auto Unlocker -->
+    <string name="alter_unlock_title">Advance Unlock</string>
+    <string name="alter_unlock_summary">Alternate Unlocking method which highly saves battery life <b>Editor\'s Choice</b></string>
+    
+    <!-- Auto Unlocker -->
+    <string name="auto_unlock_title">Auto Unlock</string>
+    <string name="auto_unlock_summary">Automatically unlocks the lockscreen if there is no security / secured lockscreen</string>
+    
+    <!-- Sensor Sensitivity -->
+    <string name="sensor_sensitivity_title">Sensor Sensitivity</string>
+    <string name="sensor_sensitivity_summary">Higher sensitivity will cause high battery drain</string>
+    
+    <!-- Credits -->
+    <string name="credits_title">Credits</string>
+    <string name="credits_summary">Check out all the contributors to the app</string>
+    
+    <!-- ACRA Auto Error Reporting 
+    <string name="crash_report_title">Auto Crash Report</string>
+    <string name="crash_report_summaryOff">Auto Crash Reporting is Disabled</string>
+    <string name="crash_report_summaryOn">Auto Crash Reporting is Enabled</string> -->
+    
+    <!-- Main Title -->
+    <string name="accuracy_title">Sensor Data</string>
+    <string name="control_panel_title">Basic Panel</string>
+    <string name="advance_panel_title">Advance Panel</string>
+    <string name="about_panel_title">About App</string>
+    <!-- Subtitle -->
+    <string name="accuracy_summary">Check out the detailed information of various Sensors</string>
+    <string name="custom_service_summary">Modify the app according to needs</string>
+    <string name="advance_panel_summary">High comfort &amp; in-depth access</string>
+    <string name="about_panel_summary">Check out extra stuff &amp; app details</string>
+    
+    <!-- Screen ON Vibration -->
+    <string name="vibrate_on_title">Screen ON Vibration</string>
+    <string name="vibration_on_summary">Vibrate when screen turns ON.\nNote: Not applicable for Light &amp; Magnetic related sensor modes</string>
+    
+    <!-- Screen OFF Vibration -->
+    <string name="vibration_off_title">Screen OFF Vibration</string>
+    <string name="vibration_off_summary">Vibrate when screen turns OFF.\nNote: Not applicable for Light &amp; Magnetic related sensor modes</string>
+    
+    <!-- Vibration Timeout -->
+    <string name="vibration_time_title">Vibration Time</string>
+    <string name="vibration_time_summary">Time for which the device should vibrate on Screen ON/OFF</string>
+    
+    <!-- Bug Report -->
+    <string name="manual_report_title">Manual Bug Report</string>
+    <string name="manual_report_summary">No Terms &amp; Condition applied</string>
+    
+    <!-- Wakelock Selection 
+    <string name="wakelock_title">Set WakeLock Type</string>
+    <string name="wakelock_summary">Change wakelock type to improve battery &amp; use which works for you</string> -->
+    
+    <!-- Gestures -->
+    <string name="gestures_title">Air Gestures</string>
+    <string name="gestures_summary">Let\'s make our Android better than S4</string>
+    
+    <!-- Say Time -->
+    <string name="say_time_title">Say Time</string>
+    <string name="say_time_summary">Says the current time on unlock.Currently, supoorts only English related Locale</string>
+    
+    <!-- Kill app -->
+    <string name="force_kill_title">Force Kill</string>
+    <!-- <string name="force_kill_summary">To forcely kill the app when app causes some funny behavior</string> -->
+    
+    <!-- Search App time -->
+    <string name="search_app_time">App Search Delay</string>
+    <string name="search_summary">Select the delay for searching the running apps for Ignore App List</string>
+    
+    <!-- Shake Sensor type -->
+    <string name="shake_type_title">Set Shake Sensor</string>
+    <string name="shake_type_summary">Select the sensor for best shaking experience</string>
+    
+    <!-- Sharing App -->
+    <string name="share_app">Share</string>
+    <string name="share_body">Check out Automaton on Play Store. Gives your Device a nice touch of Automation</string>
+    
+    <!-- Say Time -->
+    <string name="say_time_advance_summary">Advance Settings for Say Time</string>
+    
+    <!-- Say Time Advance -->
+    <string name="speak_style_title">Speaking Style</string>
+    <string name="speak_style_summary">Select time saying style</string>
+    <string name="hour_format_title">Use 12hr hour format</string>
+    <string name="time_division_title">Time Division Greeting</string>
+    <string name="time_division_summary_on">Says Time with Greeting like Morning,etc</string>
+    <string name="time_division_summary_off">Says Time with AM / PM</string>
+    
+    <!-- Wakelock Type -->
+    <string name="wakelock_type_title">Wake Lock Type</string>
+    <string name="wakelock_type_summary">Different wakelocks have different consumption of battery on devices.Set one which consumes less battery for your device</string>
+    
+    <!-- Boot Page -->
+    <string name="boot_landscape_title">Start Landscape Disable</string>
+    <string name="boot_ignore_title">Start Ignore App Detector</string>
+    
+
+</resources>

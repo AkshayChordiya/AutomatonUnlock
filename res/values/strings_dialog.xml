@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Hints -->
+    <string name="hint">Hint</string>
+    <string name="settings_message_hint">You can change the sensor effect, notification, etc stuff by accessing Settings.Also,Advance Features like Night Mode, Ignore App List, Calibration,etc</string>
+	    			
+    <!-- Minor strings -->
+    <string name="got_it">Got it!</string>
+    <string name="open_now">Open Now</string>
+    
+    <!-- AOSP ROMs -->
+    <string name="custom_tweaks_summary">Only if your running Custom AOSP/AOKP/CM ROM, Apply modified Settings?</string>
+    <string name="custom_tweaks_title">AOSP based ROM</string>
+    
+    <!-- Rate Dialog Buttons -->
+    <string name="later">Later</string>
+    <string name="rate_it">Rate It!</string>
+    
+    <!-- Reset Dialog -->
+    <string name="reset_settings_toast">Restored default settings</string>
+    <string name="reset_message">Are you sure you want to clear all your settings data ?</string>
+    
+    <!-- Sensor Restart -->
+    <string name="sensor_restart_toast">Restarted sensor monitor</string>
+    
+    <!-- Thanks Dialog -->
+    <string name="thank_title">Thanks for buying</string>
+    <string name="thank_summary">Thank you for spending your precious money on Automaton
+        \nHope,you enjoy using it for any queries or before refund for any silly reason just contact me or visit support site</string>
+        
+    
+    <string name="progress_app">Getting Installed Apps ..</string>
+    
+    <!--  
+    <string name="clear_summary">Sorry, all your user data has been deleted to work with new app framework.\nHope, you guys don\'t mind it</string>
+    -->
+    
+    
+    <!-- Force Kill Message -->
+    <string name="force_kill_message">Are you sure you want to kill app ?\n\nStart the app after some mins to prevent crashes</string>
+        
+</resources>

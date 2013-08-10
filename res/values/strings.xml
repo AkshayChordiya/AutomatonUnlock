@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Name -->
+    <string name="app_name">Automaton</string>
+    <string name="unlock">Unlock</string>
+
+    <!-- Dev Name -->
+    <string name="dev_name">Akshay Chordiya</string>
+
+    <!-- Application Version -->
+    <string name="version">1.8.2</string>
+    <!-- <string name="menu_support">Support</string> -->
+    <string name="exit">Exit</string>
+
+    <!-- Starting & Stopping App Service -->
+    <string name="start_service">Start <b>Automaton</b> Sensors</string>
+    <string name="stop_service">Stop <b>Automaton</b> Sensors</string>
+
+    <!-- Boot Start -->
+    <string name="boot_start">Powering <b>Automaton</b></string>
+
+    <!-- UI strings -->
+    <string name="remove_app">Uninstall</string>
+    <string name="extra_toggle_text">« Quick Toggles »</string>
+
+    <!-- Ignore App Monitor Service -->
+    <string name="ignore_app_monitor_on">Stop Ignore App Monitor</string>
+    <string name="ignore_app_monitor_off">Start Ignore App Monitor</string>
+
+    <!-- Landscape Monitor Service -->
+    <string name="landscape_disable_on">Stop Landscape Disable</string>
+    <string name="landscape_disable_off">Start Landscape Disable</string>
+
+    <!-- Add / Remove Administrator -->
+    <string name="remove_admin">Remove Administrator</string>
+    <string name="add_admin">Activate Administrator</string>
+
+    <!-- Device Administrator stuff -->
+    <string name="admin_description">Controls device locking &amp; unlocking</string>
+    <string name="admin_receiver_status">%1$s</string>
+    <string name="admin_receiver_status_enabled">Yaah! Administrator Powers Gained</string>
+    <string name="admin_receiver_status_disabled">Ohh! Administrator Powers Removed</string>
+
+    <!-- Light Sensor Unavailable -->
+    <string name="light_sensor_error">Your device doesn\'t have Light sensor.
+        \nTry selecting other Sensors</string>
+
+    <!-- Proximity Sensor Unavailable -->
+    <string name="proximity_sensor_error">Your device doesn\'t have Proximity sensor
+        \nTry selecting other Sensors</string>
+
+    <!-- Accelerometer Sensor Unavailable -->
+    <string name="accelerometer_sensor_error">Your device doesn\'t have Accelerometer sensor you selected for shake.
+        \nTry selecting other Sensors</string>
+
+    <!-- Magnetic Field Sensor Unavailable -->
+    <string name="magnetic_sensor_error">Your device doesn\'t have Magnetic sensor for Magnetic Flip Cover
+        \nTry selecting other Sensors</string>
+
+    <!-- Application Selection -->
+    <string name="title_activity_app_select">App Selector</string>
+
+    <!-- Auto OFF Toast -->
+    <string name="auto_turn_off_toast">Automaton: Auto Shut Down</string>
+
+    <!-- Clearing All Apps selected -->
+    <string name="clear_packages">Clear Apps List</string>
+    <!-- Clearing All calibrated values -->
+    <string name="clear_values">Clear calibrated values</string>
+
+    <!-- Simple strings -->
+    <string name="done">Done</string>
+
+    <!-- Calibration Related -->
+    <string name="title_activity_calibrate">Calibrate Sensors</string>
+    <string name="subtitle_calibrate">Increase/Reduce sensitivity of sensors for experience users</string>
+    <string name="lock_value">Lock Value: </string>
+    <string name="unlock_value">Unlock Value: </string>
+    <string name="current_value">Current Value: </string>
+
+    <!-- FAQ Activity -->
+    <string name="title_activity_faq">Frequently Asked Questions</string>
+
+    <!-- Ignore App List -->
+    <string name="search_title">Search App</string>
+
+</resources>

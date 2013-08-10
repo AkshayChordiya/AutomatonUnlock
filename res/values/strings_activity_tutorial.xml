@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tutorial Related -->
+    <string name="skip_guide">Skip this !</string>
+    <string name="quick_welcome_intro">Intelligently sleeps &amp; wakes your device right when you want using various Sensors</string>
+    <string name="quick_start">Please, read this guide to get familiar with all features present in this app</string>
+    <string name="quick_swipe">« Swipe to read further</string>
+    <string name="quick_thank_title">Thank You !</string>
+    <string name="quick_exit">Start using <b>Automaton</b></string>
+    <string name="quick_hint">Quickly learn features of app</string>
+    <string name="title_activity_quick_start">Tutorial</string>
+    
+    <string name="quick_lock_option">Automaton mainly uses 4 Sensors for <b>Locking &amp; Unlocking</b> device</string>
+    <string name="quick_lock_list">
+        \n\n1. <b>Proximity</b>:\nWidely used for locking &amp; unlocking device using Flip Cover also works best with Pocket Mode
+        \n\n2. <b>Light</b>:\nMainly for Tablets as they have Light sensor currently making it work like Proximity Sensor
+        \n\n3. <b>Shake</b>:\nJust Shake your phone to lock &amp; unlock your device
+        \n\n4. <b>Fuse: Proximity &amp; Shake</b>:\nFor Flip Cover &amp; Pocket Mode
+        \n<u>To Lock</u> - The proximity sensor should be cover &amp; then device should be shaked
+        \n<u>To Unlock</u> - The proximity sensor should be uncovered &amp; then device should be shaked
+        \n\n5. <b>Magnetic - Flip Cover</b>:\nInnovative mode only in <b>Automaton</b> to make it work with your Magnetic Flip Covers
+        \n<u>Note:</u>Calibrate the Magnetic Sensor required for your Magnetic Flip Cover
+        \n\n6. <b>Fuse: Magnetic &amp; Proximity - Accurate &amp; Advance Flip Cover Mode</b>:
+        \nWorks same as Magnetic Flip Cover Mode, just taking it to highest accuracy.Here, The Proximity sensor is specially used to confirm lock-unlock device
+        \n\n7. <b>Split: Proximity | Shake</b>:\nUsing this you can lock or unlock using both the sensors independently i.e you can shake for unlock &amp; open cover for unlock too
+        \n\n8. <b>Fuse + Split:  Proximity &amp; Shake | Proximity</b>:\nMy personal favorite Pocket Mode in which both the concepts are merge to give you excellent experience.
+        \nYou can set Proximity &amp; Shake some different job &amp; Proximity after \'|\' some different job 
+        \n<u>Special Feature of Split</u>: You can set different functions for both of the sensors using Split 2nd Sensor Function in Control Panel</string>
+
+    <string name="quick_combination">Automaton provides 2 sensor concepts</string>
+    <string name="quick_combination_taunt">
+        1. <b>Fusion Concept (Fuse)</b>:\nGives possibility to combine two sensors values &amp; then determines to lock/unlock
+        \n<u>Ex.</u>Consider, your using Proximity &amp; Shake then:
+        \n<u>To Lock</u> - The proximity sensor should be cover &amp; then device should be shaked
+        \n<u>To Unlock</u> - The proximity sensor should be uncovered &amp; then device should be shaked
+        \n\n2. <b>Fission Concept (Split)</b>:\nSensors can be given different job instead of combining their effect like in Fuse
+        \nBoth the sensors can be set different sensor function as per your requirements
+        \n<u>Ex.</u>When using Shake | Proximity you can set Shake to Lock &amp; Proximity to Unlock
+        \n<u>Special Feature of Split</u>: You can set different functions for both of the sensors using Split 2nd Sensor Function in Control Panel</string>
+    
+    <string name="quick_feature_title">Intuitive features of app are :</string>
+    
+    <string name="quick_feature_summary">\n1. <b>Ignore App List</b> :\nSelect the app for which my app will not disturb for preventing accidental lock while playing game
+        \n\n2. <b>Night Mode</b> :\nApp stops during that time interval selected useful during Night
+        \n\n3. <b>Calibrating</b> :\nSensors can be calibrate means you can adjust the sensors default values for locking &amp; unlocking bringing comfort according to your needs
+        \n\n4. <b>Custom ROM support</b> :\nAutomaton works fluidly on Custom ROMs too &amp; also provides an option to apply special custom ROM tweaks during first start up
+        \n\nLot more features..</string>
+        
+    <!-- Quick Usage Strings -->
+    <string name="quick_end_feedback">If you have any feedback (Good/Bad) mail me to<u>\nakshaychordiya2@gmail.com</u>\n\nMany Thanks,<b>\nAkshay Chordiya\nAuthor,Automaton</b></string>
+    
+    
+    <string name="tutorial_proximity_summary">Proximity sensor is a sensor able to detect the presence of nearby objects without any physical contact
+        \n\nThe above image shows the Proximity Sensor which is placed just right to Logo
+        \n\n<b>Automaton</b> gives you ability to use Proximity Sensor for Locking / Unlocking &amp; Gestures too</string>
+    
+    <string name="tutorial_shake_summary">Accelerometer sensor measures proper acceleration which is manupulated to detect Shake by <b>Automaton</b> &amp; has ability to use 2 sensors viz. Accelerometer &amp; Linear Accelerometer to detect Shaking
+        \nBoth the sensors are pretty accurate &amp; take their job seriously</string>
+        
+    <string name="tutorial_gesture_summary"><b>Air Gestures</b> : The fastest &amp; magical way to use your device making your life hassle free, performing job faster &amp; unleashing true Multitasking.
+        \n\nExperience true <b>Automaton</b> integrating capabilities, get ready to break boundries of your devices, combine both the sensor powers
+        \nHigh integration of Automaton Locking/Unlock &amp; Gestures
+        \n\nNote :
+        \n1. All the gestures designed to work when the screen is ON
+        \n2. Some sensor settings like No call interference, Sensor Sensitivity are also applied to Gestures</string>
+
+</resources>

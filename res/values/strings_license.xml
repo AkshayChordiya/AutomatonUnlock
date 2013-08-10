@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="dont_allow">Don\'t allow the user access</string>
+	<string name="allow">Allow the user access</string>
+	<!-- <string name="application_error">Application error: %1$s</string> -->
+	
+	<!-- Unlicensed dialog messages -->
+	<string name="unlicensed_dialog_title">Invalid License</string>
+	<string name="unlicensed_dialog_body">If you haven\'t purchased it then Please purchase it from Play Store for supporting my work &amp; unlocking full features of this app</string>
+	<string name="buy_button">Buy app</string>
+	
+	<!-- Retry Dialog -->
+	<string name="retry_dialog_title">Retry</string>
+	<string name="retry_dialog_summary">Sorry, Unable to authenticate your license\nTry, restarting the app or check your connectivity</string>
+	
+	<!-- RSA Public Key -->
+	<string name="rsa_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjuAk0pMJRezZpygwJ2Ro3RmCRdT0ZoTGUofAaGIl4qwcCJJjNWGAhYXXlVgpYZUn3d14Q3Di9HSyHqF9LckHPEQNHp6Zpa6Lki3iwN9NakLQMPjz9/dCWEgphjtubSMbvc90+Py/XVyRHCz7Yq6S05g2wPnJ8HZlnvyWYn7SgYk2FaxVbpk6FHmkSH5dajlehq43Annw8sG4XZN8OygASfphR68s0Z7E3lc+z3AmPJPjOe+w4fXt+M00BmV1OzzrEaW5yZb+tSjRZ53EMA/0nqu1NYH8N2pYQ2XFqVrNNWC9QAw5UbbSG/XapbtlNccJUAqTVyImLcSGLFB3n7Ck9QIDAQAB</string>
+	
+	
+	
+</resources>
